@@ -36,7 +36,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   togglePassword.addEventListener("click", () => {
     const type =
       password.getAttribute("type") === "password" ? "text" : "password";
-    password.setAttribute("type", type);
-    togglePassword.classList.toggle("bi-eye");
-    togglePassword.classList.toggle("bi-eye-slash");
+      password.setAttribute("type", type);
+      togglePassword.classList.toggle("bi-eye");
+      togglePassword.classList.toggle("bi-eye-slash");
   });
